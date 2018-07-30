@@ -1,7 +1,7 @@
 # ID-recognition
 -  Recognizes people whose photos have been sent to app.py 's webservice
 
--  pip install os, Flask, FlaskRestful, shutil, pathlib2, mmh3, requests, json, base64
+-  pip install os, Flask, FlaskRestful, shutil, pathlib2, mmh3, requests, json, base64, opencv-contrib-python, pickle, numpy, statistics, PIL, sys
 to train images you have to exit the webservice with CTRL+C in the terminal
 
 -  .json file has to be a dictionary like    dict = {name: "teresa coco", image: <image in 64bits>}
